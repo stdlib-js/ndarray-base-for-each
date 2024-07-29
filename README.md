@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-for-each@esm/index.mjs';
+import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-for-each@v0.1.0-esm/index.mjs';
 ```
 
 #### forEach( arrays, fcn\[, thisArg] )
@@ -137,7 +137,7 @@ import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@esm/index.mjs';
 import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@esm/index.mjs';
-import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-for-each@esm/index.mjs';
+import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-for-each@v0.1.0-esm/index.mjs';
 
 var x = {
     'dtype': 'generic',
