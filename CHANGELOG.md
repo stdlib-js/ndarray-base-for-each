@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-14)
+## Unreleased (2025-05-08)
 
 <section class="bug-fixes">
 
 ### Bug Fixes
 
+-   [`f10dd8c`](https://github.com/stdlib-js/stdlib/commit/f10dd8ccbd1c245467d156a1b87f5eb2ba47e0ad) - use resolved order when computing loop variables
 -   [`4e6b2eb`](https://github.com/stdlib-js/stdlib/commit/4e6b2eb39e01d193302cd93ebf93dd2f42c71291) - update type for indices
 -   [`c57d1d8`](https://github.com/stdlib-js/stdlib/commit/c57d1d880a32cfaff0c57744c81ef641640cddef) - return subscripts from perspective of ndarray view, not buffer
 
@@ -23,6 +24,7 @@
 
 <details>
 
+-   [`f10dd8c`](https://github.com/stdlib-js/stdlib/commit/f10dd8ccbd1c245467d156a1b87f5eb2ba47e0ad) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`e261bc2`](https://github.com/stdlib-js/stdlib/commit/e261bc2c64bb3ac5236abc447b9ae3f40acf31ab) - **docs:** fix strides _(by Athan Reines)_
 -   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
