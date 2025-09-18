@@ -41,14 +41,32 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-for-each
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-for-each@deno/mod.js';
+var forEach = require( '@stdlib/ndarray-base-for-each' );
 ```
 
 #### forEach( arrays, fcn\[, thisArg] )
@@ -56,9 +74,9 @@ import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-for-each
 Invokes a callback function once for each ndarray element.
 
 ```javascript
-import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
-import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@deno/mod.js';
+var Float64Array = require( '@stdlib/array-float64' );
+var naryFunction = require( '@stdlib/utils-nary-function' );
+var log = require( '@stdlib/console-log' );
 
 // Create data buffers:
 var xbuf = new Float64Array( 12 );
@@ -106,7 +124,7 @@ The callback function is provided the following arguments:
 
 ## Notes
 
--   The provided ndarray should be an `object` with the following properties:
+-   The provided ndarray should be an object with the following properties:
 
     -   **dtype**: data type.
     -   **data**: data buffer.
@@ -128,11 +146,11 @@ The callback function is provided the following arguments:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@deno/mod.js';
-import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@deno/mod.js';
-import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
-import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@deno/mod.js';
-import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-for-each@deno/mod.js';
+var ndarray2array = require( '@stdlib/ndarray-base-to-array' );
+var zeroTo = require( '@stdlib/array-base-zero-to' );
+var naryFunction = require( '@stdlib/utils-nary-function' );
+var log = require( '@stdlib/console-log' );
+var forEach = require( '@stdlib/ndarray-base-for-each' );
 
 var x = {
     'dtype': 'generic',
@@ -202,7 +220,7 @@ forEach( [ x ], naryFunction( log, 2 ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
