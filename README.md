@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-for-each@deno/mod.js';
+import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-for-each@v0.1.1-deno/mod.js';
 ```
 
 #### forEach( arrays, fcn\[, thisArg] )
@@ -132,7 +132,7 @@ import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@deno/mod.js';
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
 import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@deno/mod.js';
-import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-for-each@deno/mod.js';
+import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-for-each@v0.1.1-deno/mod.js';
 
 var x = {
     'dtype': 'generic',
