@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Invoke a callback function once for each ndarray element.
+> Invoke a callback function once for each element in an ndarray.
 
 <section class="intro">
 
@@ -71,7 +71,7 @@ var forEach = require( '@stdlib/ndarray-base-for-each' );
 
 #### forEach( arrays, fcn\[, thisArg] )
 
-Invokes a callback function once for each ndarray element.
+Invokes a callback function once for each element in an ndarray.
 
 ```javascript
 var Float64Array = require( '@stdlib/array-float64' );
@@ -106,7 +106,7 @@ forEach( [ x ], naryFunction( log, 1 ) );
 
 The function accepts the following arguments:
 
--   **arrays**: array-like object containing an ndarray.
+-   **arrays**: array-like object containing an input ndarray.
 -   **fcn**: callback to apply.
 -   **thisArg**: callback execution context.
 
@@ -250,8 +250,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-base-for-each.svg
 [npm-url]: https://npmjs.org/package/@stdlib/ndarray-base-for-each
 
-[test-image]: https://github.com/stdlib-js/ndarray-base-for-each/actions/workflows/test.yml/badge.svg?branch=v0.1.1
-[test-url]: https://github.com/stdlib-js/ndarray-base-for-each/actions/workflows/test.yml?query=branch:v0.1.1
+[test-image]: https://github.com/stdlib-js/ndarray-base-for-each/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/ndarray-base-for-each/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-for-each/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-for-each?branch=main
