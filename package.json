@@ -62,6 +62,7 @@
     "@stdlib/ndarray-base-shape2strides": "^0.2.3",
     "@stdlib/ndarray-base-to-array": "^0.2.2",
     "@stdlib/random-array-discrete-uniform": "^0.2.2",
+    "@stdlib/string-format": "^0.2.3",
     "@stdlib/utils-nary-function": "^0.2.4",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
